@@ -1,0 +1,23 @@
+### Problem Statement: Technova Case Study
+
+TechNova Solutions, a B2B software company, has been experiencing fluctuating customer engagement levels. The company wants to analyze data from their sales calls to improve customer retention and identify upselling opportunities.
+
+In this implementation, I am using the provided data contains the last 6 months of sales calls and customer interactions.
+
+
+The following are assumptions are made about the descriptions what each column in the data represents (since no prior details were given):
+
+* **call_id**: Unique identifier for each sales call.
+* **date**: When the sales call took place.
+* **customer_id**: Unique identifier for each customer.
+* **customer_size**: Size of the customer’s business (e.g., Small, Medium, Large).
+* **industry**: Industry in which the customer operates (e.g., Finance, Healthcare, etc).
+* **product**: Specific software product discussed during the call.
+* **call_duration**: Length of the call, (in minutes).
+* **sentiment_score**: Score indicating how positive or negative the customer’s attitude was during the call, (ranging from negative to positive).
+* **followup_scheduled**: Whether a follow-up meeting or call was scheduled after the current call (Yes or No).
+* **issues_raised**: Number of issues or problems the customer mentioned during the call.
+* **feature_requests**: Number of new features the customer asked for.
+* **competitor_mentioned**: Whether the customer mentioned a competitor during the call (Yes or No).
+* **upsell_opportunity**: Whether there was a chance to sell additional products or services (Yes or No).
+* **churn_risk**: The likelihood that the customer might stop doing business with TechNova (Low, Medium, High).
